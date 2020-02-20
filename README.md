@@ -3,7 +3,7 @@ Python-redis-container
 
 A sample repo to create python webapp container with redis DB
 
-Install docker-compose (yum install docker-compose in RHEL based distro's)
+pre requisites:  docker and docker-compose
 
 Clone this git repo in local host / VM. Once cloned, run docker instances using
 `docker-compose up`
@@ -28,4 +28,4 @@ Data is stored in the docker volume which is persisted even if the containers ar
 To view docker volumes
 `docker volume ls`
 
-Access the server at http://ip/ 
+Access the server at "http://ip/" (ip is host ip) 
